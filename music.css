@@ -38,7 +38,7 @@ body{
 	font-size:44px;
 	line-height: 39px;
 	margin-top:15px;
-	margin-bottom:24px5
+	margin-bottom:24px;
 }
 .small-desc{
 	font-size:13px;
@@ -64,10 +64,11 @@ body{
 	color: black;
 }
 .median-box{
-	width:1366px;
+	width:100%;
 	height:536px;
 	top:768px;
 	background:url(img-bg-1350.jpg);
+	margin:0;
 }
 .median-pic{
 	top:610px;
@@ -91,7 +92,7 @@ body{
 	background:url(beoplay-p6-8.jpg);
 	float:left;
 	background-size: contain;
-		background-repeat: no-repeat;
+	background-repeat: no-repeat;
 }
 .pic3{
 	width:309px;
@@ -99,7 +100,7 @@ body{
 	background:url(earset-subtile1.jpg);
 	float:left;
 	background-size: contain;
-		background-repeat: no-repeat;
+	background-repeat: no-repeat;
 }
 .median-text-box1{
 	color:#fff;
@@ -125,3 +126,138 @@ body{
 	height:9px;
 	color:#fff;
 }
+.top{
+	width:100%;
+	height:38px;
+	position:absolute;
+	display:flex;
+	justify-content: space-between;
+	color:#fff;
+}
+.left{
+	padding-top: 23px;
+	padding-left: 72px;
+	box-sizing: border-box;
+	width:98px;
+	height:100%;
+	background:url(spot.png);
+	background-repeat: no-repeat;
+	background-position: 26px 23px;
+	font-size: 12px;
+}
+.center{
+	width:195px;
+	height:100%;
+	padding-top: 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+	text-align: center;
+}
+.right{
+	padding-top: 23px;
+	padding-right: 49px;
+	box-sizing: border-box;
+	width:98px;
+	height:100%;
+	background:url(line.png);
+	background-repeat: no-repeat;
+	background-position: 44px 23px;
+	font-size: 12px;
+}
+.category{
+	text-align: center;
+	width:100%;
+	height:372px;
+}
+.space{
+	height:119px;
+}
+.category,h6{
+	margin-top: 0;
+}
+.catory,h1{
+	font-size: 47px;
+	font-weight: 400;
+	margin: 0;
+}
+.product-pic{
+	width:921px;
+	height:410px;
+	background-color: yellow;
+	margin:auto;
+
+}
+.pro-pic1{
+	width:307px;
+	height:205px;
+	background:url(pic1.jpg);
+	background-size: contain;
+	float:left;
+}
+.pro-pic2{
+	width:307px;
+	height:205px;
+	background:url(pic2.jpg);
+	background-size: contain;
+	float:left;
+}.pro-pic3{
+	width:307px;
+	height:205px;
+	background:url(pic3.jpg);
+	background-size: contain;
+	float:left;
+}.pro-pic4{
+	width:307px;
+	height:205px;
+	background:url(pic4.jpg);
+	background-size: contain;
+	float:left;
+}.pro-pic5{
+	width:307px;
+	height:205px;
+	background:url(pic5.jpg);
+	background-size: contain;
+	float:left;
+}.pro-pic6{
+	width:307px;
+	height:205px;
+	background:url(pic6.jpg);
+	background-size: contain;
+	float:left;
+}
+.story{
+	text-align: center;
+	width:100%;
+	height:372px;
+}
+.space2{
+	height:119px;
+}
+.story-pic{
+	width:921px;
+	height:410px;
+	/*background-color: yellow;/*/
+	margin:auto;
+}
+.story-pic1{
+	width:297px;
+	height:205px;
+	background:url(Wide-image-2.jpg);
+	background-size: contain;
+	float:left;
+}
+.story-pic2{
+	width:200px;
+	height:205px;
+	background:url(the-krane.jpg);
+	background-size: contain;
+	float:left;
+}
+.story-pic3{
+	width:424px;
+	height:205px;
+	background:url(harmonies-story.jpg);
+	background-size: contain;
+	float:left;
+}
+
